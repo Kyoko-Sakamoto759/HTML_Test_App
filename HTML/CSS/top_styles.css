@@ -1,0 +1,116 @@
+/*フォント読み込み*/
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+/*共通部分*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/*ページ全体*/
+.page-wrapper {
+    width: 100%;
+    padding: 0 40px;
+    margin: 0 auto;
+}
+
+/*ヘッダー*/
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 24px;
+}
+header h1{
+    font-family: 'Caveat', cursive;
+    font-size: 5.5vmax;
+}
+ul.link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 60px;
+}
+
+/*メイントップ画*/
+#mainphoto{
+    display: block;
+    width: 90%;
+    height: auto;
+    border-radius: 16px;
+    margin: 20px 70px;
+}
+
+/*プロフィール*/
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 60px;
+}
+
+.profile h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 4.5vmax;
+}
+
+.introduction p{
+    font-size: 1.3vmax;
+}
+
+
+.profile_link{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.profile_link a{
+    font-size: 1.3vmax;
+}
+
+/*ブログ*/
+
+.blog h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 4.5vmax;
+    text-align: center;
+}
+
+.blog p{
+    font-size: 1.3vmax;
+    text-align: center;
+    margin: 24px;
+}
+
+.blog_article{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+
+.blog_link p{
+    font-size: 1.3vmax;
+    margin: 0px 170px;
+    text-align: right;
+}
+
+/*フッター部分*/
+footer{
+    text-align: center;
+    margin: 170px 0px 0px 0px;
+}
